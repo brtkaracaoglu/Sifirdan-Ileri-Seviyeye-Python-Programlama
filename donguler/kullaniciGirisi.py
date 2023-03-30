@@ -3,8 +3,8 @@ Kullanıcı Girişi Programı
 "******************************
  """)
 
-sysKullaniciAdi = "a"
-sysParola = "2"
+sysKullaniciAdi = "admin"
+sysParola = "1234"
 girisHakkı = 3
 
 while True:
@@ -20,10 +20,10 @@ while True:
         print("Kullanıcı adınız ve Parola yanlış..")
         girisHakkı -= 1
     else:
-        print("Siisteme başarıyla giriş yapıldı")
+        print("Sisteme başarıyla giriş yapıldı")
         break
     if(girisHakkı == 0):
-        print("Giriiş hakkınız bitt")
+        print("Giriş hakkınız bitti")
         break
 
 
